@@ -1,0 +1,297 @@
+:root {
+    --back-color: gainsboro;
+    --for-color: white;
+    --sec-color: #f0f8ff;
+    --main-margin: 3%;
+    --main-rad: 3rem;
+}
+
+html{
+    background-color: var(--back-color);
+}
+
+.container{
+    align-content: center;
+    background-color: var(--back-color);
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+h3{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+nav {
+    background-color: var(--for-color);
+    font-size: 1.5em;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    
+    a {
+        margin-right: 5px;
+        margin-left: 5px;
+        background-color: var(--for-color);
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        background-color: var(--sec-color);
+    }
+
+    
+}
+
+.profileContainer{
+    background-color: var(--for-color);
+    text-align: center;
+}
+
+#profile {
+    display: inline-block;
+    width: 40%;
+    margin: --main-margin;
+    padding: var(--main-margin);
+    img {
+        max-width: 100%;
+        height: auto;
+        
+    }
+    vertical-align: top;
+}
+
+.projectContainer {
+    text-align: center;
+    background-color: var(--sec-color);
+    padding-top: var(--main-margin);
+    border-radius: 0 0 40px 40px;
+    
+}
+
+#project {
+    background-color: var(--for-color);
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    margin: 0 3% 3% 3%;
+    padding: var(--main-margin);
+    border-radius: var(--main-rad);
+    img {
+        max-width: 100%;
+    }
+
+    vertical-align: top;
+}
+
+.ServicesEducationContainer{
+    text-align: justify;
+    background-color: var(--back-color);
+    padding-top: var(--main-margin);
+}
+
+.ServicesEducation{
+    padding-top: 10px;
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+
+}
+
+#ServicesEducationContent{
+    text-align: left;
+    
+    background-color: var(--for-color);
+    margin: 0 1.5% 0 1.5%;
+    padding: 3%;
+    border-radius: var(--main-rad);
+    
+}
+
+#item {
+
+    background-color: var(--for-color);
+
+    margin:var(--main-margin);
+    padding: 10px;
+
+    img {
+        display: inline-block;
+        width: 15%;
+        padding-top: 10px;
+        
+    }
+
+    p {
+        display: inline-block;
+        width: 75%;
+        margin-left: 5%;
+        margin-top: 10px;
+        vertical-align: top;
+        
+    }
+
+}
+
+.Experience {
+    text-align: center;
+    padding-top: var(--main-margin);
+    align-content: center;
+    
+}
+
+#ExperienceContent{
+    text-align: left;
+    margin: 0 3% 3% 3%;
+    padding: 3% 9% 3% 9%;
+    background-color: var(--for-color);
+    border-radius: var(--main-rad);
+}
+
+.BlogContainer{
+    background-color: var(--sec-color);
+    height: 500px;
+    border-radius: 40px 40px 0 0;
+    padding-bottom: var(--main-margin);
+    
+}
+
+#BlogText{
+    display: inline-block;
+    width: 40%;
+    margin-top: var(--main-margin);
+    margin-left: var(--main-margin);
+    border-right: 3px solid black;
+    padding: 0 3%;
+    text-align: left;
+    height: 500px;
+    overflow-y: auto;
+}
+
+#BlogTitle{
+    display: inline-block;
+    margin: 3% 0 0 10%;
+    vertical-align:top;
+    text-align: center;
+    width: 25%;
+    img{
+        margin: var(--main-margin);
+        border-radius: 50%;
+        width: 75%;
+    }
+}
+
+.ContactMe {
+    background-color: var(--for-color);
+    text-align: center;
+  
+}
+
+
+#conact {
+    width: 49%;
+    display: inline-block;
+}
+
+#input {
+    
+    width: 50%;
+    height: 40px;
+    margin: 1% 0;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#message {
+    width: 50%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: top;
+    border: 1px solid black;
+    margin: 1% 0;
+}
+
+#SocialMedia {
+    display: inline-block;
+    background-image: url("SocialMedia.png");
+    background-repeat: no-repeat;
+    background-position: center 40px;
+    background-size: 400px;
+    height: 500px;
+    width: 45%;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+
+    a {
+        text-align: center;
+        display: block;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: .5%;
+    }
+
+    
+}
+
+#github {
+    position: absolute;
+    left: 45%;
+    top: 6%;
+    margin-top: 50%;
+}
+
+#linkedin {
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    margin-top: 50%;
+}
+
+#facebook {
+    position: absolute;
+    left: 45%;
+    bottom: 2%;
+    margin-top: 50%;
+}
+
+#backtotop{
+    padding-bottom: var(--main-margin);
+    img{
+        border-radius: 50%;
+        padding: .5% .3% .3% .3%;
+        background-color: var(--back-color);
+    }
+}
+
+footer{
+    display: block;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    display: inline-block;
+    margin: 1% 3%;
+    padding-left : 6%;
+
+    img {
+        width: 30;
+    }
+}
